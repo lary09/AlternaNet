@@ -1,0 +1,33 @@
+.formulario {
+    background-color: #F5CBA7;
+    padding: 40px 0px; /* Agrega un relleno al contenedor para dar margen */
+    box-sizing: border-box; /* Asegura que el relleno y el borde estén incluidos en el ancho y alto */
+    margin-top: 10%;
+    border-radius: 23px;
+}
+
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input[type='text'],
+input[type='password'],
+input[type='submit'] {
+    border-radius: 34px;
+    border: none;
+    padding: 10px 5px; /* Ajusta el relleno */
+    width: 20%; /* Ajusta el ancho según tus necesidades */
+    margin: 12px;
+    text-align: center;
+}
+
+input:hover {
+    background-color: #5DADE2;
+}
+
+
