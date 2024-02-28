@@ -14,7 +14,7 @@ module.exports = {
       'error', 2
     ],'linebreak-style':[
       'error', 'unix'
-    ],'quotes':['error', 'single'],'semi':['error', 'never'],
+    ],'quotes':['error', 'double'],'semi':['error', 'always'],
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },

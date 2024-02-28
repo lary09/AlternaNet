@@ -1,4 +1,4 @@
-import './App.css'
+import "./App.css";
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
       </form>
     </div> 
     
-  )
+  );
 }
 
-export default App
+export default App;
